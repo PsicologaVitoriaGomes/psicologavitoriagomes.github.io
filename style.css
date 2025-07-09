@@ -1,73 +1,71 @@
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #fdfdfd;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  background: #fffaf4;
+  color: #333;
 }
 
 header {
-  background-color: #fce4ec;
-  padding: 20px;
+  background-color: #fddde6;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   gap: 20px;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #444;
   font-weight: bold;
 }
 
 .slider {
   display: flex;
   overflow-x: auto;
-  gap: 10px;
-  padding: 20px;
-  background-color: #fff3e0;
 }
 
 .slider img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 12px;
+  height: 250px;
+  flex-shrink: 0;
+  margin-right: 10px;
 }
 
 section {
-  padding: 30px;
-}
-
-#sobre, #local, #contato {
-  background-color: #e3f2fd;
-  margin-bottom: 20px;
-  border-radius: 12px;
+  padding: 40px 30px;
 }
 
 .sobre-content {
   display: flex;
-  align-items: center;
   gap: 20px;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .sobre-content img {
-  width: 200px;
+  height: 200px;
   border-radius: 12px;
 }
 
-h2 {
-  color: #1976d2;
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fddde6;
+  font-size: 0.9em;
 }
